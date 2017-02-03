@@ -2,7 +2,7 @@
 
 EmberFire can handle relationships in two different ways: `async` and `embedded`, and currently supports `hasMany` and `belongsTo` relationships.
 
-Unless have a reason and understand the implications we suggest using `inverse: null` in your relationships and saving both sides manually (see [Saving Async Relationship Data](#saving-async-relationship-data) below) due to the nature of the Real-time Database.
+Unless you have a reason and understand the implications we suggest using `inverse: null` in your relationships and saving both sides manually (see [Saving Async Relationship Data](#saving-async-relationship-data) below) due to the nature of the Real-time Database.
 
 ## Async
 
